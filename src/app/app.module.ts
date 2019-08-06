@@ -29,7 +29,8 @@ const config = {
     AngularFireModule.initializeApp(config),
     AngularFirestoreModule, // firestore
     AngularFireAuthModule, // auth
-    AngularFireStorageModule // storage
+    AngularFireStorageModule, // storage
+    AppRoutingModule
   ],
   declarations: [ AppComponent ],
   bootstrap: [ AppComponent ]
