@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyBbNjfVB52crxizKVfyJpEXRBY8lCwVPp0",
     authDomain: "fcc-book-trading-394e0.firebaseapp.com",
     databaseURL: "https://fcc-book-trading-394e0.firebaseio.com",
