@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+$font-base: 26px;
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: Calibri, Arial, sans-serif;
+  color: #f0f0f0;
+  font-weight: 400;
+  min-height: 900px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
