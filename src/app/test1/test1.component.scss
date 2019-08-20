@@ -1,0 +1,31 @@
+$brdr-color: #229490;
+
+
+.navbar {
+    margin: 0 auto;
+    border-bottom: 5px solid #edf5f5;
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      align-items: center;
+      background-color: $brdr-color;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 15px 70px;
+      text-decoration: none;
+      color: #f0f0f0;
+      &:hover, &:focus {
+        color: #000;
+        background-color: $brdr-color;
+      }
+      &:visited {
+        color: #000;
+      }
+    }
+  }

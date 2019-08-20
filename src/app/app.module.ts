@@ -10,6 +10,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { Test1Component } from './test1/test1.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 // 2. Add your credentials from step 1
 const config = {
@@ -32,7 +34,7 @@ const config = {
     AngularFireStorageModule, // storage
     AppRoutingModule
   ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, Test1Component, HomePageComponent ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {}

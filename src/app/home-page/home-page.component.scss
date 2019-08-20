@@ -1,0 +1,50 @@
+$sdr-brdr-color: #5ee0d6;
+
+.gnrl-info {
+    background-color: $sdr-brdr-color;
+    text-align: center;
+    border-bottom: 5px solid #edf5f5;
+  }
+  
+  .gnrl-info-date {
+    font-size: 24px;
+    padding: 22px 22px 40px;
+  }
+  
+  section.stats {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  section.stats > div {
+    padding: 25px;
+    margin: 10px auto;
+  }
+  
+  .achievment-rate, .achievment-time {
+    div {
+    font-size: 30px;
+    }
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li.tast-item.task-name {
+    padding: 15px;
+    border-bottom: 5px solid #edf5f5;
+  }
+  
+  .task-list .plan1 {
+    background-color: #d6b048;
+  }
+  
+  .task-list .plan2 {
+    background-color: #15af77;
+  }
+  
+  .task-list .plan3 {
+    background-color: #c4c2c2;
+  }
